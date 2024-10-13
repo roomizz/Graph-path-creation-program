@@ -1,7 +1,7 @@
-โปรแกรมนี้จะสร้างกราฟและหาเส้นทางที่ดีที่สุดด้วยA*และDijkstra โดยมีmapให้เลือก 5 แบบไล่ตามระดับความซับซ้อน และสามารถcotton map เองได้
-- หากใช้คำสั่งcottonสร้างmapที่ซับซ้อนมากจนโปรแกรมเกิดใช้งานไม่ได้ ให้ไปแก้ค่าWIDTH, HEIGHT ที่ t.py ตามขนาดที่จอของคุณรับได้ 
-(เนื่องจากdef random_map จะไม่ทำงานถ้าค่าWIDTH, HEIGHT กับค่าdis(ระยะห่างระหว่างNode) ไม่สมเหตุสมผล)
+โปรแกรมนี้จะสร้างกราฟและหาเส้นทางที่ดีที่สุดโดยใช้ A* และ Dijkstra โดยมีแผนที่ให้เลือก 5 แบบ ไล่ตามระดับความซับซ้อน และคุณสามารถสร้างแผนที่เองได้ด้วยคำสั่ง cotton
 
-This program will create a graph and find the best path using A* and Dijkstra. There are 5 maps to choose from in order of complexity. You can also cotton map yourself.
-- If you use the cotton command to create a map that is too complicated for the program to work, change the WIDTH, HEIGHT values ​​in t.py to the size that your screen can handle.
-(Because def random_map will not work if the WIDTH, HEIGHT and dis values ​​(distance between nodes) are not reasonable.)
+หากคุณใช้คำสั่ง cotton เพื่อสร้างแผนที่ที่ซับซ้อนจนโปรแกรมไม่สามารถทำงานได้ ให้แก้ไขค่าของ WIDTH และ HEIGHT ในไฟล์ t.py ตามขนาดที่หน้าจอของคุณสามารถรองรับได้ (เนื่องจากฟังก์ชัน random_map จะไม่ทำงานหากค่าของ WIDTH, HEIGHT และ dis (ระยะห่างระหว่างโหนด) ไม่สมเหตุสมผล)
+
+This program creates a graph and finds the optimal path using A* and Dijkstra. There are 5 maps to choose from, ordered by complexity, and you can also create your own map using the cotton command.
+
+If you use the cotton command to generate a map that is too complex for the program to handle, you can adjust the WIDTH and HEIGHT values in t.py to fit the size your screen can accommodate. (The random_map function won't work if the WIDTH, HEIGHT, and dis (distance between nodes) values are not reasonable.)
